@@ -38,3 +38,20 @@ Request payload example:
 #### 9 - Property in required without be used
 #### 10 - Property cnpj with pattern valid
 #### 11 - Property cpf with pattern valid
+
+## Output
+```  
+   {
+      "field": "accounts/get/responses/200/data/items/brandName",
+      "rule": "Campo não contem propriedade 'minLength'"
+
+    },
+    {
+      "field": "accounts/get/responses/200/data/items/brandName",
+      "rule": "Campo contem propriedade 'pattern' igual [\\w\\w\\s]*"
+    },
+    {
+      "field": "accounts/get/responses/200/data/items/companyCnpj",
+      "rule": "Campo não contem propriedade 'minLength'"
+    }
+``` 
